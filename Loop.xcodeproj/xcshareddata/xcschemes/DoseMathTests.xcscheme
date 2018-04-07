@@ -10,7 +10,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -20,7 +19,7 @@
                BlueprintIdentifier = "43E2D8D01D20BF42004DA55F"
                BuildableName = "DoseMathTests.xctest"
                BlueprintName = "DoseMathTests"
-               ReferencedContainer = "container:LoopX.xcodeproj">
+               ReferencedContainer = "container:Loop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -31,7 +30,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"

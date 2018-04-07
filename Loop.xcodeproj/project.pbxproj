@@ -1411,7 +1411,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43776F871B8022E90074EA36 /* Build configuration list for PBXProject "LoopX" */;
+			buildConfigurationList = 43776F871B8022E90074EA36 /* Build configuration list for PBXProject "Loop" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2382,7 +2382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43776F871B8022E90074EA36 /* Build configuration list for PBXProject "LoopX" */ = {
+		43776F871B8022E90074EA36 /* Build configuration list for PBXProject "Loop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43776FB41B8022E90074EA36 /* Debug */,

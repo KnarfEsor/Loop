@@ -17,7 +17,7 @@
                BlueprintIdentifier = "43776F8B1B8022E90074EA36"
                BuildableName = "Loop.app"
                BlueprintName = "Loop"
-               ReferencedContainer = "container:LoopX.xcodeproj">
+               ReferencedContainer = "container:Loop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,9 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -37,7 +36,7 @@
                BlueprintIdentifier = "43E2D90A1D20C581004DA55F"
                BuildableName = "LoopTests.xctest"
                BlueprintName = "LoopTests"
-               ReferencedContainer = "container:LoopX.xcodeproj">
+               ReferencedContainer = "container:Loop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -47,7 +46,7 @@
             BlueprintIdentifier = "43776F8B1B8022E90074EA36"
             BuildableName = "Loop.app"
             BlueprintName = "Loop"
-            ReferencedContainer = "container:LoopX.xcodeproj">
+            ReferencedContainer = "container:Loop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,7 +56,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -71,7 +69,7 @@
             BlueprintIdentifier = "43776F8B1B8022E90074EA36"
             BuildableName = "Loop.app"
             BlueprintName = "Loop"
-            ReferencedContainer = "container:LoopX.xcodeproj">
+            ReferencedContainer = "container:Loop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,7 +88,7 @@
             BlueprintIdentifier = "43776F8B1B8022E90074EA36"
             BuildableName = "Loop.app"
             BlueprintName = "Loop"
-            ReferencedContainer = "container:LoopX.xcodeproj">
+            ReferencedContainer = "container:Loop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
