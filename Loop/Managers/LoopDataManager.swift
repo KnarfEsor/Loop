@@ -1284,6 +1284,8 @@ final class LoopDataManager {
         let currentDeltaBG = change.end.quantity.doubleValue(for: glucoseUnit) -
             change.start.quantity.doubleValue(for: glucoseUnit)// mg/dL
         
+        let velocityTimeInterval = change.end.endDate.timeIntervalSince(change.0.endDate).minutes
+        
         // run parameter estimation only if glucose has been updated
         if (glucoseUpdated) {
             // monitoring of retrospective correction in debugger or Console ("message: myLoop")
@@ -1296,6 +1298,7 @@ final class LoopDataManager {
             NSLog("myLoop Current discrepancy: %f", currentDiscrepancy)
             NSLog("myLoop Overall retrospective correction: %f", overallRC)
             NSLog("myLoop Correction effect duration [min]: %f", effectMinutes)
+            NSLog("myLoop velocity time: %f", velocityTimeInterval)
             
             // parameter estimation monitoring in debugger or Console ("message: myLoop")
             NSLog("myLoop ---parameter estimation------")
